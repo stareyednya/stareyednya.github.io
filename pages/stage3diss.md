@@ -29,3 +29,7 @@ Both algorithms could also be further refined to account for some edge cases spo
 
 ## Examples
 All art assets seen in the project come from Unity's 2D Roguelike tutorial (all floor and wall tiles) and Hyperluminal Games (keys and locks).
+
+![Maze With Rooms](/images/mwr.png)
+![BSP Tree](/images/bsp%20tree.png)
+![Parameters](/images/parameters.png)
