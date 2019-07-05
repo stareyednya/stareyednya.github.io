@@ -15,21 +15,29 @@ The game was developed in the Unity game engine in the C# programming language. 
   * Moving enemies using A* pathfinding to navigate to the player and attack them, some only 'awakened' when the player moves close
   * Enemies with magic attacks that attack certain tiles around them each cycle.
   * Enemies with magic attacks that target the player's current position, some with predictive shot. 
-* Scoring System: players can earn points for the number of rooms cleared with a bonus for no damage taken and from defeating enemies. 
+* Scoring System: players can earn points for the number of rooms cleared with a bonus for no damage taken and from defeating enemies.
+* Enemies, their attacks, and items have animation. 
+* Increasing Difficulty: the more rooms a player completes in a run, the more enemies will appear in following rooms. 
 * An introductory cutscene and title screen. 
 * A full tutorial.
 * Four different game modes: 2 minute timer, 5 minutes, 10 minutes and endless mode. A hub world is used to changed between them. 
 * Dynamic camera with Unity's Cinemachine to produce a transition effect between rooms. 
 * Sound Effects: every scene comes with background music, and each movement, attack and item use uses sound effects. 
+* Debug Console: an included command console that can be used for debugging by spawning enemies and items, changing player stats, and clearing the current room to speed up testing. 
 
 ## Results and What Was Learnt
 The completed game is playable online [here](https://eleanoot.github.io/HEADHOME/index.html) (works best on Mozilla Firefox due to bugs within Unity's WebGL export). 
 
-This project was my first completed video game.
+This project was my first completed video game and as a result I learnt a lot about game development from both the use of a game engine and a player's perspective. I learnt new skills within Unity such as adding animation, applying different levels of collision detection and combining numerous elements into forming a connected game. From a player perspective I also learnt to consider game design principles such as ensuring rooms were completable and the increasing challenge. 
 
 ## Improvements
+WIth more time my algorithm for the natural spread of enemies and obstacles across the grid could be refined. The algorithm went through numerous versions during development and some edge cases remain where these entities will still be placed next to each other from this combination of implementations. A restructure would allow for a more optimised way of spreading entities, whether that come from cleaning the original code or even basing my implementation on another grid based method such as Conway's Game of Life. 
+
+A number of polishing touches could also be added to provide extra immersion effects such as screenshake. The increasing difficulty could be adjusted to only allow the harder enemy variants to appear at higher numbered rooms. 
 
 ## Video
 No art assets seen in the project are mine.
 
 [![Head Home Item Showcase](http://img.youtube.com/vi/aAaEPwPSld8E/0.jpg)](http://www.youtube.com/watch?v=aAaEPwPSld8 "Head Home Item Showcase")
+
+[FULL REEL TO COME]
