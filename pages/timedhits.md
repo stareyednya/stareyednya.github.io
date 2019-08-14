@@ -19,4 +19,26 @@ Damage caused by and done to the player can gain an additional multiplier depend
 To aim to keep the same frame based timing, the timing windows for each hit rating are based on the normalised time of the animations themselves (for attack animations that only play once, such as the jab attack), or account for the current position of the battle unit moving in its attack (for animations that loop, such as the bat enemy's spin attack). 
 
 ## Modular Attack System 
-To try and prevent the need to hardcode multiple attacks that may have similar elements, att
+To try and prevent the need to hardcode multiple complex attacks that may share similar elements, attack steps are constructed from multiple prefabs known as 'moves'. Each move stores the next step in the attack, and each move reports when its action has been completed. When all moves in the attack have been completed, the turn system advances to the next unit. Constructing each attack from these 'move' prefabs was benefical in preventing the amount of reused code in hardcoding attacks, and allowed for the easy reuse of attacks and their steps: the jab attack used by both the player unit and the reptile soldier consists of the same prefab simply dropped into their list of possible attacks, and all attacks share the steps of moving to and from their target.
+
+## Results and What Was Learnt 
+A demonstration of the completed battle scene can be seen in the video at the end of this page.
+
+As all previous games completed by myself relied almost completely on player control within real time events, implementing a turn based system provided more experience with programming contained enemy behaviour using existing systems within the project, such as those used for moving and applying statistics to the player. This project also allowed me to design and implement new kinds of game programming logic I hadn't previously, such as the logic for determining the order of turns between all units in the battle and ensuring no turn actions overlap before completion. 
+
+Avoiding the hardcoding of all attacks in favour of developing the modular attack system was an interesting exercise that proved useful in quickly setting up and expanding on attacks, and I can easily see how creating such generic tools or templates could speed up work in the future. 
+
+## Improvements
+While I am pleased with what I managed to achieve in this Unity experiment in the time I allocated to myself for this project, I would definitely have liked to expand what was included within the battle system with more time:
+
+* I would have liked to include more types of attack for both players and enemies formed of much different types of action, such as a magic attack with a projectile moving towards the target instead of the unit approaching that could be jumped over to avoid damage on a timed press, or a ranged attack making use of a UI target to hit on time. 
+* Currently each unit only has one possible attack, so a system where the player can select from a menu and an enemy can randomly choose 
+an attack to use from a choice of multiple could be implemented for variety in the battle.
+* There are currently no sound or other visual effects. The attack move prefabs already include support for multiple next actions being fired, either at the end of the action or as soon as the current action begins. This feature could be made use of to play extra effects as the action progresses.
+
+I would also like to experiment with making the entire battle system more generic. Currently each attack is responsible for its own timing of the player input, which started to become messier when not dealing directly with a player's own attack. It would likely be much cleaner to have a central 'Hit Timer' component to activate whenever an action needed to be timed, which could register the timing for any hit and the units currently in question could simply retrieve the information from. The enemies in the encounter are also currently hardcoded in: for this battle system to become a scene that could be reused throughout an RPG game for any possible combination of encounters, a system to load in chosen or random enemies would be needed.
+
+## Video 
+All art assets seen are from the [Superpowers Assets Packs by Pixel-boy.](https://github.com/sparklinlabs/superpowers-asset-packs)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AjCW0mLtiwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
