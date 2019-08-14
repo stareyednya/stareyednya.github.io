@@ -38,6 +38,6 @@ A number of polishing touches could also be added to provide extra immersion eff
 No art assets seen in the project are mine.
 
 Item Showcase:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aAaEPwPSld8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aAaEPwPSld8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [FULL REEL TO COME]
