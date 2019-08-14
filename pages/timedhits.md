@@ -1,7 +1,7 @@
 # A Turn Based RPG Combat System Based On Timed Hits
 
 ## Introduction
-For this project I wanted to experiment with creating a traditional turn based RPG combat system between a player party and a group of enemies. I also wanted to add more user interaction for each battle turn rather than just clicking through menus, so aimed to base attack mechanics around a simple 'timed hits' system. Timed hits add a type of quick time event to each attack, where the player can deal more damage with their own attack or reduce the damage caused by n enemy with a well timed button press. A well known example of this system is the Mario and Luigi RPG series. 
+For this project I wanted to experiment with creating a traditional turn based RPG combat system between a player party and a group of enemies. I also wanted to add more user interaction for each battle turn rather than just clicking through menus, so aimed to base attack mechanics around a simple 'timed hits' system. Timed hits add a type of quick time event to each attack, where the player can deal more damage with their own attack or reduce the damage caused by an enemy with a well timed button press. A well known example of this system is the Mario and Luigi RPG series. 
 
 ## Implementation 
 The battle scene was created in the Unity game engine in the C# programming language. The demo scene features:
