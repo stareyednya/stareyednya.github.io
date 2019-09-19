@@ -8,3 +8,5 @@
 # Personal Projects
 * [To-Do List Mod for Stardew Valley](/pages/todolist.html)
 * [A Turn Based RPG Combat System Based On Timed Hits](/pages/timedhits.html)
+* [RPG Overworld Test](/pages/overworld.html)
+* [Gachapon Machine Discord Bot](/pages/gachabot/html)
