@@ -10,6 +10,6 @@ Here you can view both game work I've completed for my degree and personal proje
 ## Contact Me
 [Email](mailto:gregoryeleanor@yahoo.com?subject=Github%20Portfolio)
 
-[LinkedIn]
+[LinkedIn](https://www.linkedin.com/in/eleanor-gregory-006639101/)
 
 [CV]
