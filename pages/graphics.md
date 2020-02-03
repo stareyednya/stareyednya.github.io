@@ -1,5 +1,9 @@
 # Stage 4 Advanced Graphics for Games
 
+## Video
+Enable captions for descriptions of each feature as they are shown.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VRl7ds2qX6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Introduction
 The brief for this project was to use OpenGL within Newcastle University's graphics framework NCLGL to render the scene of a landscape which changed over time. 
 
@@ -31,6 +35,3 @@ A number of features such as shadow mapping, skybox reflections and the particle
 
 I would have also liked to show off the inclusion of multiple lights and their calculations in the scene, which could have been done via deferred rendering for efficiency. 
 
-## Video
-Enable captions for descriptions of each feature as they are shown.
-<iframe width="560" height="315" src="https://youtu.be/VRl7ds2qX6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
