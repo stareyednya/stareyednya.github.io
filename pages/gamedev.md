@@ -4,12 +4,13 @@
 The completed game is playable online [here](https://eleanoot.github.io/HEADHOME/index.html) (works best on Mozilla Firefox due to bugs within Unity's WebGL export). The below videos showcase different aspects of the game:
 
 Beginning of the game and tutorial:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rwgube0nhwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+One run of the game:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KpccxtfeSKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Item Showcase:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aAaEPwPSld8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-One run of the game:
-
 
 ## Introduction 
 For this coursework I developed my own video game over the course of 4 months. I chose to produce 'Head Home': a 2D infinite runner where the player controls a lost cat and aims to traverse as many 'rooms' as possible before time runs out or all health is lost. The rooms are populated with obstacles and enemies to avoid, and the player can find items along the way to help clear a larger number of rooms. 
