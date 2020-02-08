@@ -1,7 +1,13 @@
 # Stage 3 Graphics for Games: Hardware Shaders
 
+## Video 
+[TO COME]
+
 ## Introduction
 In this project I made use of OpenGL and shader language GLSL to build a series of shaders for application to a spinning cube. Vertex, fragment, geometry and tesselation shaders were implemented by themselves or in combinations with other shaders.
+
+## What Was Learned
+This was my first experience of programming my own shaders, so naturally I learned about the use of vertex, fragment, geometry and tesselation shaders. I also saw how textures could be used to generate variable heightmaps. 
 
 ## Implementation
 Seven different shaders were implemented: 
@@ -13,13 +19,5 @@ Seven different shaders were implemented:
 6. A tesselation shader which uses a secondary texture as a heightmap to indent the cube and make a crater to a set depth over time. Phong lighting is used to highlight the shape of the crater. 
 7. A tesselation shader to extend the surface of all cube faces with a heightmap based on the texture. Phong lighting is attached to the mouse which can be moved as a 'flashlight' to highlight the added depth in different ways.
 
-## Results and What Was Learnt
-Examples of each shader can be seen in the video at the end of this page. 
-
-This was my first experience of programming my own shaders, so naturally I learned about the use of vertex, fragment, geometry and tesselation shaders. I also saw how textures could be used to generate variable heightmaps. 
-
 ## Possible Improvements
 Some memory optimising could be completed by further removal of fragments from processing after a certain point, for example the deletion of the splinter fragments from shader 5 at a certain distance from the starting point. 
-
-## Video 
-[TO COME]
