@@ -1,11 +1,19 @@
 # Gachapon Machine Discord Bot
 
 ## Introduction 
-In my free time I have often been involved in both playing in and running online text based RPG campaigns, which often include a system for players to spent in game currency and receive random items much like Japanese Gachapon machines. Typically this process involves a lot of work for the game masters in managing large spreadsheets of items and manually randomly selecting which items players had won from the machine. To reduce the amount of work and time game masters would be required to put into this mechanic, and also prevent players having to wait for game masters who may be busy to come online and give them items, I decided to write a Discord bot which would be able to both store and randomly distribute items added to it. 
+In my free time I have often been involved in both playing in and running online text based RPG campaigns, which often include a system for players to spent in-game currency and receive random items much like Japanese Gachapon machines. Typically this process involves a lot of work for the game masters in managing large spreadsheets of items and manually randomly selecting which items players had won. To reduce the amount of work and time game masters would be required to put into this mechanic, and also prevent players having to wait for game masters who may be too busy to come online and give them items, I decided to write a Discord bot which would be able to both store and randomly distribute items added to it. 
 
 [Discord](https://discordapp.com/) is a chat application that supports the addition of 'bots' to its group chats, which can aid the running of the server depending on what they are programmed to do. At the time of this project, all campaigns I joined were hosted on Discord, so adding the gachapon functionality to Discord was the natural solution. 
 
 The bot was named 'Mowtron', after the NPC in the game in charge of the shop.
+
+## Results
+After three weeks of planning and development an initial version of Mowtron was deployed in the campaign's Discord server for stress testing before the game began, since so far all testing had only been done in a server with one other person (myself). All 15 game masters and players were given the oppertunity to try using Mowtron to add and win dummy items simultaneously. Overall the reaction to Mowtron was overwhemingly positive, with the only negative response to be acted upon regarding the lack of feedback to mistakes being made in entering commands. Mowtron was updated with error messages for incorrectly used commands, as well as beginning to accept often seen typos of commonly seen commands (for example, typing 'm!item' instead of 'm!items'). 
+
+## What Was Learned 
+Developing Mowtron helped improve my Javascript and database skills, along with being my first experience using Node.js and working on an application to be hosted elsewhere. Mowtron was also an interesting case in being my first personal project to be planned alongside other people, as I discussed the creation of a bot for this task with the other gamemasters to produce a specification for what would be needed and useful from their point of view. 
+
+The initial testing also proved an insightful experience into early testing with users, as the players highlighted several issues I hadn't considered from my own perspective of knowing how the bot worked: for instance, myself always knowing the exact commands to type in versus players on their first interaction with the bot not knowing why a command that sounded correct got no response. This made me think further about possible test cases to be used during development of applications.
 
 ## Technologies Used
 Though Discord bots can be written in a number of languages, Mowtron was written using Node.js. Node.js was chosen because of my basic knowledge of Javascript that I wished to develop further, along with a module for interacting with Discord's API ([discord.js](https://discord.js.org/#/) already existing that would allow straightforward completion of all tasks I wanted.  
@@ -33,12 +41,6 @@ Mowtron works via the input of user commands, which must be prefixed by 'm!' to 
 
 To both allow game masters to have a view of the full machine state and prevent players absuing the system by giving themselves extra currency or peeking into other player's inventories, Mowtron makes use of Discord's ability to assign users different roles within the chat. Through applying 'game master' and 'player' roles within the server, Mowtron can restrict certain commands and functionality to use only by game masters, with a warning provided for players who try. Use of roles also ties in with keeping player inventories private but allowing game masters to monitor Mowtron's use. When players win an item the result is privately messaged to them, but the result can also be sent publically to an output channel only those with the 'game master' role can view. 
 
-## Results and What Was Learned 
-After three weeks of planning and development an initial version of Mowtron was deployed in the campaign's Discord server for stress testing before the game began, since so far all testing had only been done in a server with one other person (myself). All 15 game masters and players were given the oppertunity to try using Mowtron to add and win dummy items simultaneously. Overall the reaction to Mowtron was overwhemingly positive, with the only negative response to be acted upon regarding the lack of feedback to mistakes being made in entering commands. Mowtron was updated with error messages for incorrectly used commands, as well as beginning to accept often seen typos of commonly seen commands (for example, typing 'm!item' instead of 'm!items'). 
-
-Developing Mowtron helped improve my Javascript and database skills, along with being my first experience using Node.js and working on an application to be hosted elsewhere. 
 
 
-## Usage Examples
-Examples will be uploaded when the game begins and Mowtron is in active use. 
 
