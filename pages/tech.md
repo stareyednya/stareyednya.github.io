@@ -6,6 +6,8 @@ Enable captions for descriptions of each feature as they are shown.
 
 "An excellent coursework. The collision detection is done well...the use of collision layers for automatic handling of which objects can react are a neat touch. The additions made are logical and make for a very efficient broadphase. The state machine is well thought out and integrated nicely with the pathfinding code. The networking is very nicely done." - Dr Rich Davison 
 
+[View on Github](https://github.com/eleanoot/public-examples)
+
 ## Introduction
 The aim of this project was to create a simple 3D game where the player would control a goose out to steal items, similar to Untitled Goose Game. The game would be created using a framework provided by Newcastle University to implement physics, collision detection/response, AI and networking game components within. 
 
