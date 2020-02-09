@@ -14,6 +14,8 @@ Item Showcase:
 
 "The game plays very well... there are some very nice touches that really do make it feel polished. Technically the game presents a complete enviroment that satisfies the gaming requirements. - Dr Graham Morgan
 
+[View on Github](https://github.com/eleanoot/GameDevFull)
+
 ## Introduction 
 For this coursework I developed my own video game over the course of 4 months. I chose to produce 'Head Home': a 2D infinite runner where the player controls a lost cat and aims to traverse as many 'rooms' as possible before time runs out or all health is lost. The rooms are populated with obstacles and enemies to avoid, and the player can find items along the way to help clear a larger number of rooms. 
 
