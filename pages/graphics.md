@@ -6,6 +6,8 @@ Enable captions for descriptions of each feature as they are shown.
 
 'A well thought out, technically excellent scene with a wide range of engineering features.' - Dr Rich Davision 
 
+[View on Github](https://github.com/eleanoot/public-examples)
+
 ## Introduction
 The brief for this project was to use OpenGL within Newcastle University's graphics framework NCLGL to render the scene of a landscape which changed over time. I interpreted this by having a camera move through a landscape that rose from the water, the movement triggering changes such as trees growing and snow beginning to fall.
 
