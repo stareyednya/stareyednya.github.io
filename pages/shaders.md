@@ -1,7 +1,7 @@
 # Stage 3 Graphics for Games: Hardware Shaders
 
 ## Video 
-[TO COME]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DMzknMpKNUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Introduction
 In this project I made use of OpenGL and shader language GLSL to build a series of shaders for application to a spinning cube. Vertex, fragment, geometry and tesselation shaders were implemented by themselves or in combinations with other shaders.
