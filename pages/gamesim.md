@@ -1,7 +1,7 @@
 # Stage 3 Gaming Simulations
 
-# Result 
-[TO COME]
+# Video 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5LavmeYE0NA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Introduction 
 In this coursework I was given the basic framework of a 2D arcade game and tasked with completing its physics engine and AI. Gameplay consisted of the player navigating a robot around a map to pick up and lead 'Collectable Robots' back to a base to score points. Collectibles could also apply bonuses such as an increase in movement speed. Enemy robots were present on the map that would patrol, chase the player, and guard collectables to add difficulty.
